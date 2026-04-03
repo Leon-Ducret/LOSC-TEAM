@@ -1,0 +1,27 @@
+/* 1. Importation des Google Fonts (Spécial LOSC) */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;700&family=Oswald:wght@500;700&family=Roboto:wght@300;400;700&family=Teko:wght@500;600&display=swap');
+
+/* 2. Importation des composants */
+/* Assure-toi d'avoir créé ces fichiers dans ton dossier css/components/ */
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+/* 3. Règles générales du site */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  background-color: #f4f4f4; /* Un gris très clair pour le fond de page */
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif; /* Typographie forte et sportive */
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}

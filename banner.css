@@ -1,0 +1,25 @@
+.banner {
+  /* Filtre sombre (linear-gradient) superposé à ton image du LOSC */
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../../images/loscfond.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0px; /* Grand espace en haut et en bas */
+  text-align: center; /* Centre le texte et le bouton */
+}
+
+.banner h1 {
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase; /* Met le titre en majuscules pour l'impact */
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Petite ombre sous le texte */
+}
+
+.banner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 300; /* Police plus fine */
+  opacity: 0.8; /* Rend le texte légèrement transparent */
+  margin-bottom: 40px;
+}

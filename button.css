@@ -1,0 +1,18 @@
+.btn-red {
+  background-color: #E2001A; /* Le rouge vif officiel du LOSC */
+  color: white;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* La transition permet un changement de couleur fluide en 0.3 secondes */
+  transition: background-color 0.3s ease; 
+}
+
+/* L'état quand la souris passe sur le bouton */
+.btn-red:hover {
+  background-color: #9A0011; /* Un rouge bien plus sombre/noirci */
+  color: white;
+  cursor: pointer; /* Transforme la souris en petite main */
+}
